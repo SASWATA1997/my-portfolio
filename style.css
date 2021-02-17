@@ -497,3 +497,15 @@ footer span a{
 footer span a:hover{
 	text-decoration: underline;
 }
+.contact-content table{
+	width: 80%;
+}
+.contact-content table tr td{
+	text-align: center;
+	color: blue;
+	text-shadow: 3px 3px #737373;
+}
+.contact-content table tr td i{
+	cursor: pointer;
+	font-size:50px;
+}

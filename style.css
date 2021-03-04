@@ -393,6 +393,10 @@ section .title::after{
 	 color: crimson;
     background: none;
 }
+.skills .skillscontain .coloumleft .extend{
+	display: none;
+	border-style: solid;
+}
 .skills .skillscontain .coloumright .bars{
 	margin-bottom: 15px;
 }

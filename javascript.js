@@ -39,8 +39,13 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
-    $(document).ready(function(){
-        $("#extend").on('change', function(){
-            alert($(this).val());
+    //extend part
+    /*$(document).ready(function(){
+        $("#divshow").click(function(){
+            $(#extend).css("display","block");
         });
-    });
+        $("#divhide").click(function(){
+            $(#extend).css("display","none");
+        });
+
+    });*/

@@ -40,12 +40,11 @@ $(document).ready(function(){
         loop: true
     });
     //extend part
-    /*$(document).ready(function(){
-        $("#divshow").click(function(){
-            $(#extend).css("display","block");
-        });
-        $("#divhide").click(function(){
-            $(#extend).css("display","none");
-        });
-
-    });*/
+    function myFunction() {
+  var x = document.getElementById("extend");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

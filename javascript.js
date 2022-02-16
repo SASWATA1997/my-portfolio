@@ -24,6 +24,9 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
+    $('.read').click(function(){
+        $('#extend').toggle(3000);
+    });
 });
  // typing text animation script
     var typed = new Typed(".typing", {
@@ -40,11 +43,11 @@ $(document).ready(function(){
         loop: true
     });
     //extend part
-    function myFunction() {
+    /*function myFunction() {
   var x = document.getElementById("extend");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
-}
+}*/
